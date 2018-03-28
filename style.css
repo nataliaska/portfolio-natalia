@@ -1,0 +1,392 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+    background: #ECF0F1;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+ul {
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 20 40;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.slider {
+    background-image: url(img/slider2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    width: 100%;
+    position: relative;
+    margin: 0 0 0 0;
+    top: 50px;
+}
+
+.slider h1 {
+    text-align: right;
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    margin: 0 0 0 0;
+}
+
+.slider h2 {
+    text-align: right;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    position: absolute;
+    top: 120px;
+    right: 70px;
+    margin: 0 0 0 0;
+}
+
+.info {
+    background: #ECF0F1;
+    height: 160px;
+    text-align: center;
+    position: relative;
+    margin: 0 0 0 0;
+}
+
+.info h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0 0 0 0;
+    position: absolute;
+    right: 70px;
+    left: 70px;
+    top: 30px;
+}
+
+.info p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 150%;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    left: 70px;
+    margin: 0 0 0 0;
+}
+
+/*blog post*/
+
+.container {
+    background: #fff;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin: 0 0 0 0;
+
+}
+
+.portfolio {
+    background: #fff;
+    height: 100px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    right: 70px;
+}
+
+.blog-container {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    height: auto;
+    position: absolute;
+    top: 70px;
+}
+
+/* post pierwszy */
+
+.container .blog-container .image-a {
+    height: 240px;
+    width: 340px;
+    text-align: center;
+    position: relative;
+    margin: 20 20;
+    background-image: url(img/foto1.jpg);
+}
+
+.container .blog-container .image-a .title-a {
+    font-size: 30px;
+    border: hidden;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    left: 70px;
+}
+
+.container .blog-container .image-a .description-a {
+    display: none;
+}
+
+.container .blog-container .image-a:hover .description-a {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    left: 50px;
+
+}
+
+.container .blog-container .image-a:hover {
+    opacity: 0.5;
+}
+
+/*post drugi*/
+
+.container .blog-container .image-b {
+    height: 240px;
+    width: 340px;
+    text-align: center;
+    position: relative;
+    margin: 20 20;
+    background-image: url(img/foto2.jpg);
+}
+
+.container .blog-container .image-b .title-b {
+    font-size: 30px;
+    border: hidden;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    left: 70px;
+}
+
+.container .blog-container .image-b .description-b {
+    display: none;
+}
+
+.container .blog-container .image-b:hover .description-b {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    left: 50px;
+
+}
+
+.container .blog-container .image-b:hover {
+    opacity: 0.5;
+}
+
+/*post trzeci*/
+
+.container .blog-container .image-c {
+    height: 240px;
+    width: 340px;
+    text-align: center;
+    position: relative;
+    margin: 20 20;
+    background-image: url(img/foto3.jpg);
+}
+
+.container .blog-container .image-c .title-c {
+    font-size: 30px;
+    border: hidden;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    left: 70px;
+}
+
+.container .blog-container .image-c .description-c {
+    display: none;
+}
+
+.container .blog-container .image-c:hover .description-c {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    left: 50px;
+}
+
+.container .blog-container .image-c:hover {
+    opacity: 0.5;
+}
+
+/*post czwarty*/
+
+.container .blog-container .image-d {
+    height: 240px;
+    width: 340px;
+    text-align: center;
+    position: relative;
+    margin: 20 20;
+    background-image: url(img/foto4.jpg);
+}
+
+.container .blog-container .image-d .title-d {
+    font-size: 30px;
+    border: hidden;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    left: 70px;
+}
+
+.container .blog-container .image-d .description-d {
+    display: none;
+}
+
+.container .blog-container .image-d:hover .description-d {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    left: 50px;
+}
+
+.container .blog-container .image-d:hover {
+    opacity: 0.5;
+}
+
+/*post piąty*/
+
+.container .blog-container .image-e {
+    height: 240px;
+    width: 340px;
+    text-align: center;
+    position: relative;
+    margin: 20 20;
+    background-image: url(img/foto5.jpeg);
+}
+
+.container .blog-container .image-e .title-e {
+    font-size: 30px;
+    border: hidden;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    left: 70px;
+}
+
+.container .blog-container .image-e .description-e {
+    display: none;
+}
+
+.container .blog-container .image-e:hover .description-e {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    left: 50px;
+}
+
+.container .blog-container .image-e:hover {
+    opacity: 0.5;
+}
+
+/*post szósty*/
+
+.container .blog-container .image-f {
+    height: 240px;
+    width: 340px;
+    text-align: center;
+    position: relative;
+    margin: 20 20;
+    background-image: url(img/foto6.jpg);
+}
+
+.container .blog-container .image-f .title-f {
+    font-size: 30px;
+    border: hidden;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    left: 70px;
+}
+
+.container .blog-container .image-f .description-f {
+    display: none;
+}
+
+.container .blog-container .image-f:hover .description-f {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    left: 50px;
+}
+
+.container .blog-container .image-f:hover {
+    opacity: 0.5;
+}
