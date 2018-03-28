@@ -1,0 +1,22 @@
+Hej!
+
+Zrobiałam sobie przykładowy projekt, żeby poćwiczyć flexbox oraz pozycjonowanie.
+
+Pytanie 1:
+
+W linijce 34 w HTML zaczyna się moja sekcja z kafelkami projektów; 
+CSS - początek w linijce 134;
+
+Chciałam, żeby po najechaniu w kafelek wyświetlała się dodatkowa linijka tekstu + krycie zdjęcia. Ustawiłam na to hover. 
+Niestety krycie przykrywa również tekst (zarówno ten, który jest na stałe, jak również ten, który pojawia się tylko po najechaniu kursora).
+Jak powinnam zbudować kod, żeby tekst nie był przykrywany przez hover i warstwę krycia? 
+Podejrzewam, że zmianę powinnam zrobić w HTML'u, nie tylko w css.
+
+Żeby zbudować całą sekcję PORTFOLIO trochę się namęczyłam, później robiłam wiele wersji z hoverem.
+Trochę się już pogubiłam i potrzebuję wskazówki :)
+
+Pytanie 2:
+Czy ogólna struktura tego co napisałam w HTML i CSS jest w porządku czy powinnam jakoś inaczej porządkować kod?
+Co o tym myślisz i co byś zmieniła, żeby było czyściej?
+
+
